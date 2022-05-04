@@ -3,6 +3,9 @@
     --font-primary-color: white;
     --font-second-color: #FA4A0C;
     --primary-font-size: 16px;
+    --font-family-Montserrat: 'Montserrat', sans-serif;
+    --font-family-Roboto: 'Roboto', sans-serif;
+    --font-family-Poppins: 'Poppins', sans-serif;
 }
 
 * {
@@ -49,19 +52,18 @@
     color: var(--font-second-color)
 }
 
-button {
+.btn-upperbutton{
     width: 236px;
     height: 68px;
     border-radius: 30px;
-    padding: 16px, 0px, 16px, 0px;
-
-    font-family: 'Montserrat';
+    font-family: var(--font-family-Montserrat);
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
     letter-spacing: 0.1px;
     text-align: center;
     color: var(--font-primary-color);
+    margin-top: 78px;
 }
 
 .btn-1 {
@@ -75,18 +77,35 @@ button {
     border: 1px solid white;
 }
 
+.textHow{
+    font-size: 44px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    padding: 56px 0 0;
+    font-family: var(--font-family-Poppins);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    color: #000000;
+    opacity: 0.8;
+}
+.restApp_images {}
+
 .restApp {
     background-image:url(/assest/images/Rectangle\ 48.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    color: white;
+    height: 619px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 80px 0 170px;
 }
 
+.restAppContainer {
+    width: 799px;
+
+}
 .restApp h3 {
-    font-family: 'Montserrat';
+    font-family: var(--font-family-Montserrat);
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -97,7 +116,7 @@ button {
 }
 
 .restApp h1 {
-    font-family: 'Poppins';
+    font-family: var(--font-family-Poppins);
     font-style: normal;
     font-weight: 700;
     font-size: 58px;
@@ -105,10 +124,11 @@ button {
     text-align: center;
     letter-spacing: 0.2px;
     color: var(--font-primary-color);
+    margin-top: 10px;
 }
 
 .restApp h4 {
-    font-family: 'Montserrat';
+    font-family: var(--font-family-Montserrat);
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -116,6 +136,7 @@ button {
     text-align: center;
     letter-spacing: 0.2px;
     color: var(--font-primary-color);
+    margin-top: 14.89px;
 }
 
 .mobile {
@@ -124,8 +145,187 @@ button {
     align-items: center;
     margin-top: 113px;
     margin-bottom: 50px;
-
 }
 .mobile-img {
     margin-left: 174px;
 }
+.mobile-info {
+    padding: 0 175px;
+}
+.textCreateContainer {
+    display: flex;
+    flex-direction: column;
+    width: 561px;
+    height: 114px;
+}
+.textCreate {
+    padding: 17px 0;
+    color: var(--font-second-color);
+}
+.textCreateLogin {
+    letter-spacing: 0.2px;
+    color: #252B42;
+    font-weight: 700;
+    font-size: 40px;
+}
+   
+.textAccont {
+    font-size: 24px;
+    color: #737373;
+}
+    
+.textAccontContainer{
+    display: flex;
+    Width: 467px;
+    height: 76px;
+    top: 10px;
+}
+.mobile2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 113px;
+
+}
+.mobile-img2 {
+    margin-right: 174px;
+  
+}
+.mobile-info2 {
+    padding: 0 175px;
+}
+
+.text1 {
+    color: var(--font-second-color);
+    font-family: var(--font-family-Montserrat);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 17px;
+}
+.text2 {
+    font-family: var(--font-family-Montserrat);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.textShophotContainer {
+    display: flex;  
+    flex-direction: column;
+    width: 561px;
+    height: 114px;
+}
+.text3 {
+    font-size: 24px;
+    color: #737373;
+    font-family: var(--font-family-Montserrat);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    margin-top: 27px;
+}
+.textShopitContainer {
+    display: flex;
+    Width: 467px;
+    margin-top: 27px;
+}
+
+.order {
+}
+.blockOrder {
+    height: 470px;
+    background-image: url(/assest/images/Rectangle\ 47.png);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 184.88px;
+}
+
+.orderText {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.orderText h2 {
+    font-family: var(--font-family-Montserrat);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    color: var(--font-primary-color)
+}
+.orderText h4 {
+    font-family: var(--font-family-Montserrat);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    margin: 0px 10px;
+    color: var(--font-primary-color);
+    margin-bottom: 59px;
+}
+
+.btn-downbutton {
+    width: 142px;
+    height: 64px;
+    border-radius: 10px;
+    font-family: var(--font-family-Montserrat);
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    color: white;
+}
+
+.footerClass {
+    height: 236.9px;
+    display: flex;
+    justify-content: center;
+}
+.footerblock {
+    width:1210px;
+    height:133px;  
+    margin-top: 76.9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.textCopy {
+    font-family:var(--font-family-Roboto);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.1px;
+    color: #5C5C5C;
+}
+
