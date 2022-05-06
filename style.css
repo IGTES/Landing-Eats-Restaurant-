@@ -38,12 +38,17 @@
     margin-right: 114px;
     list-style-type: none;
     display: inline;
+}
 
+a {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
 }
 
 .inner-menu {
-    text-decoration: none;
-    font-family: 'Montserrat';
+    font-family: var(--font-family-Montserrat);
     font-weight: 600;
     font-size: 16px;
     line-height: 28px;
@@ -59,9 +64,6 @@
     font-family: var(--font-family-Montserrat);
     font-weight: 700;
     font-size: 24px;
-    line-height: 36px;
-    letter-spacing: 0.1px;
-    text-align: center;
     color: var(--font-primary-color);
     margin-top: 78px;
 }
@@ -83,13 +85,8 @@
     text-align: center;
     padding: 56px 0 0;
     font-family: var(--font-family-Poppins);
-    font-style: normal;
-    font-weight: 600;
     line-height: 36px;
-    color: #000000;
-    opacity: 0.8;
 }
-.restApp_images {}
 
 .restApp {
     background-image:url(/assest/images/Rectangle\ 48.png);
@@ -129,11 +126,9 @@
 
 .restApp h4 {
     font-family: var(--font-family-Montserrat);
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 38px;
-    text-align: center;
     letter-spacing: 0.2px;
     color: var(--font-primary-color);
     margin-top: 14.89px;
@@ -198,28 +193,18 @@
 .text1 {
     color: var(--font-second-color);
     font-family: var(--font-family-Montserrat);
-    font-style: normal;
-    font-weight: 700;
     font-size: 24px;
     line-height: 36px;
     letter-spacing: 0.1px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     margin-bottom: 17px;
 }
 .text2 {
     font-family: var(--font-family-Montserrat);
-    font-style: normal;
-    font-weight: 700;
     font-size: 40px;
     line-height: 57px;
     letter-spacing: 0.2px;
-    color: #252B42;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
+
 .textShophotContainer {
     display: flex;  
     flex-direction: column;
@@ -230,11 +215,9 @@
     font-size: 24px;
     color: #737373;
     font-family: var(--font-family-Montserrat);
-    font-style: normal;
     font-weight: 400;
     line-height: 38px;
     letter-spacing: 0.2px;
-    margin-top: 27px;
 }
 .textShopitContainer {
     display: flex;
@@ -262,26 +245,16 @@
 }
 .orderText h2 {
     font-family: var(--font-family-Montserrat);
-    font-style: normal;
-    font-weight: 700;
     font-size: 40px;
     line-height: 57px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 10px;
-    color: var(--font-primary-color)
+    color: var(--font-primary-color);
 }
 .orderText h4 {
     font-family: var(--font-family-Montserrat);
     font-weight: 400;
     font-size: 24px;
     line-height: 38px;
-    text-align: center;
     letter-spacing: 0.2px;
-    margin: 0px 10px;
     color: var(--font-primary-color);
     margin-bottom: 59px;
 }
@@ -291,20 +264,9 @@
     height: 64px;
     border-radius: 10px;
     font-family: var(--font-family-Montserrat);
-    position: static;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 28px;
     letter-spacing: 0.2px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 10px;
     color: white;
 }
 
